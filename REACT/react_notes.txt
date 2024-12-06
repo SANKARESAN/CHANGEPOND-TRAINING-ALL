@@ -402,27 +402,55 @@ syntax : useEffect(()=>{},[]);
 case-3 : when we have to execute useEffect hook as we want.
 	   : we pass value in dependencies.
 syntax : useEffect(()=>{}, dependencies);
---------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+======================================================================================================================
+6-12-24 |
+---------
+
+# validation for dropdown :
+
+# CRUD 
+-REST Fake API :
+Axios library : it is use to make request from react app to server.
+- how to install Axios = CMD = npm i Axios
 
 
+# json-server : it is dummmy serevr, which serevre environment to database
+CMD = npm install json-server
 
 
+# json database : 
+
+# How to start and json-server upload db.json
+cd src/shared/database (press Enter)
+
+npx json-server --watch -p 8888 db.json (press enter)
 
 
+-------------------------------------------------------------------------------------------------------------------
+FOLDERS :- 
+src folder = CRUD folder = ProductDashComp fc, ProductAddComp fc, ProductEditComp fc
+-------------------------------------------------------------------------------------------------------------------
 
 
+# get request : to fetch data from  server.
+
+# Material UI : 
+-- it provide inbuilt react component, which makes react project attractive.
+-- as well as it provide 
+
+--its  offiical website is www.mui.com
+
+#1 How to install mui ?
+npm install @mui/material @emotion/react @emotion/styled
+
+#2 How to install material icon.
 
 
+3---import EditIcon from '@mui/icons-material/Edit';
 
 
-
-
-
-
-
-
-
-
-
-
+======================================================================================================================
+ UseNavigate : it is use to perform automatic navigation
+ UsePara
 
